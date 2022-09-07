@@ -1,0 +1,85 @@
+*{
+    font-family: 'Poppins';font-size: 22px;
+    text-transform: uppercase;
+}
+
+body{
+    background-color: antiquewhite;
+    height: 100vh;
+    font-family: 'Poppins';font-size: 22px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#contactme {
+    background-color: bisque;
+    width: 80%;
+    text-align: center;
+    margin: 100%;
+    padding: 50%;
+    border-top: 15px solid green ;
+}
+h1{
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 60px;
+    font-weight: bolder;
+    color: burlywood;
+}
+form {
+    padding: 50px;
+    width: 60%;
+    margin: auto;
+}
+
+.feild {
+    margin-bottom: 25px;
+    width: 100%;
+    display: grid;
+    position: relative;
+
+}
+label{
+    color: red ;
+    background-color: black;
+    font-size: x-large;
+     letter-spacing: 1px;
+     width: 700px;
+     padding: 0;
+     font-weight: bolder;
+     position: absolute;
+
+}
+.input{
+    height: 50px;
+    outline: none;
+    width: 700px;
+    padding-left: 20%;
+    box-sizing: border-box;
+
+}
+.feild:hover label {
+    width: 18%;
+    background-color: blue;
+    color: aliceblue;
+    transition: all 0.5s ease-in-out ;
+
+}
+
+#submit {
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 2%;
+    border: none;
+    font-size: large;
+    font-weight: bolder;
+    color: blueviolet;
+
+
+}
+#submit:hover{
+background-color: brown;
+color: blanchedalmond;
+transition: 0.3s ease-in-out;
+}
