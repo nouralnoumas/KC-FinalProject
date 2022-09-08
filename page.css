@@ -80,6 +80,11 @@ height: 100vh;}
     cursor: pointer;
        }
 
-
+a{
+  text-align: center;
+  
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+}
       
       
